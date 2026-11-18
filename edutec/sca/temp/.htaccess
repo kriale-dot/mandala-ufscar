@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^horizonte\.ufscar\.br$ [NC]  # Substitua "seusite.com" pelo seu domínio
+RewriteCond %{HTTP_HOST} !^www\.horizonte\.ufscar\.br$ [NC]  # Opcional: inclua "www" se necessário
+RewriteRule ^(.*)$ https://horizonte.ufscar.br/$1 [L,R=301]

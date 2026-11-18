@@ -1,0 +1,17 @@
+﻿/vendor/
+/edutec/sca/protected/vendor/
+/edutec/sca/assets/
+/edutec/sca/assets-backup/
+/edutec/sca/protected/runtime/
+
+*.tar
+*.tar.gz
+*.zip
+*.sql
+*.dump
+*.backup
+*.bak
+
+.env
+.env.*
+!.env.example
